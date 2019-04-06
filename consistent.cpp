@@ -14,7 +14,7 @@ int main(){
     int number_of_solutions = count_number_of_solutions(min_value, max_value);
     auto search_finish = get_current_time_fenced();
 
-    std::ofstream out_file("../results/consistent_results.txt", std::ios_base::app);
+    std::ofstream out_file("results/consistent_results.txt", std::ios_base::app);
 
     if (out_file.good()) {
         out_file << "Number of solutions: " << number_of_solutions
@@ -26,4 +26,3 @@ int main(){
     }
     return 0;
 }
-

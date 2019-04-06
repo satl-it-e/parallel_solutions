@@ -47,7 +47,7 @@ int main(int argc, char *argv[]){
     }
     auto finish = get_current_time_fenced();
 
-    std::ofstream out_file("../results/parallel_results.txt", std::ios_base::app);
+    std::ofstream out_file("results/parallel_results.txt", std::ios_base::app);
     out_file << "Number of threads: " << number_of_threads << "\nNumber of solutions: " << whole_number_of_solutions
              << "\nTotal time: " << to_us(finish - start) << " microseconds" <<  std::endl;
     out_file.close();
