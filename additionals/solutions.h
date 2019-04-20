@@ -35,8 +35,9 @@ int count_number_of_solutions(int min_w, int max_w) {
 
 
 int count_number_of_solutions_result_by_reference(int* result, int min_w, int max_w){
+    int current_result = count_number_of_solutions(min_w, max_w);
     mutex.lock();
-    *result += count_number_of_solutions(min_w, max_w);
+    *result += current_result;
     mutex.unlock();
 
     return 0;

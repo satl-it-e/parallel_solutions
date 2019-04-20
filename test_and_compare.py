@@ -12,14 +12,14 @@ paral_prog = 'parallel_program'
 
 def run_programs(number_of_tests):
     for i in range(number_of_tests):
-        os.system('./build/{}'.format(cons_prog))
+        os.system('./{}'.format(cons_prog))
 
     for i in range(1, 5):
         for j in range(number_of_tests):
-            os.system('./build/{} {}'.format(paral_prog, i))
+            os.system('./{} {}'.format(paral_prog, i))
     for i in range(1, 5):
         for j in range(number_of_tests):
-            os.system('./build/{} {}'.format(paral_prog, 10**i))
+            os.system('./{} {}'.format(paral_prog, 10**i))
 
 
 def parse_files(number_of_tests):

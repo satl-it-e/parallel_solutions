@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.5.1)
+cmake_minimum_required(VERSION 3.5.2)
 project(parallel_solutions)
 
 set(CMAKE_CXX_STANDARD 14)
 
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ../)
-set(additional_files additionals/solutions.h additionals/time_measure.h)
-add_executable(consistent_program consistent.cpp ${additional_files})
-add_executable(parallel_program parallel.cpp ${additional_files})
+#set(additional_files additionals/solutions.h)
+add_executable(consistent_program consistent.cpp)
+add_executable(parallel_program parallel.cpp)

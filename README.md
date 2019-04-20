@@ -42,12 +42,12 @@ Where **<plot_results>** ('_yes_'/'_no_') -- Do you want to plot results. Defalt
 Number of tests -- 1000.
 
 <br />
-Total time of processing **consistent program** -- 65923 microseconds.
+Total time of processing **consistent program** -- 613422 microseconds.
 <br />
 
 Number of threads: | 1 | 2 | 3 | 4
 ---|---|---|---|---
-**Total time of processing (microseconds):** | 65114 | 65263 | 65298 | 65196
+**Total time of processing (microseconds):** | 571210 | 535880 | 488610 | 427896
 
 ![picture alt](https://github.com/satl-it-e/parallel_solutions/blob/master/1-4_parl_res.png)
 
@@ -56,6 +56,6 @@ Number of threads: | 1 | 2 | 3 | 4
 
 Number of threads: | 10 | 100 | 1000 | 10000
 ---|---|---|---|---
-**Total time of processing (microseconds):** | 66910 | 67746 | 68218 | 37193
+**Total time of processing (microseconds):** | 320293 | 115170 | 3749 | 37294
 
 ![picture alt](https://github.com/satl-it-e/parallel_solutions/blob/master/10-10000_parl_res.png)

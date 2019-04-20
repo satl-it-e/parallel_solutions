@@ -17,6 +17,7 @@ inline std::chrono::high_resolution_clock::time_point get_current_time_fenced()
     return res_time;
 }
 
+
 template<class D>
 inline long long to_us(const D& d)
 {
